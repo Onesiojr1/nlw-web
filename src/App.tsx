@@ -52,7 +52,7 @@ function App() {
       <CreateAdBanner />
       <Dialog.Portal>
         <Dialog.Overlay  className='bg-black/60 inset-0 fixed'/>
-        <Dialog.Content className='fixed bg-[#2A2634] py-8 px-10 text-white top-1/2 left-1/2 -translate-x-1/2 translate-y-1/2 rounded-lg w-[480px] shadow-lg'>
+        <Dialog.Content className='fixed bg-[#2A2634] py-8 px-10 text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-lg w-[480px] shadow-lg'>
           <Dialog.Title className='text-3xl font-black'>Publique um anúncio</Dialog.Title>
 
            <form className='mt-8 flex flex-col gap-4'>
@@ -80,7 +80,7 @@ function App() {
             <div className='flex gap-6'>
               <div className='flex flex-col gap-2'>
                 <label htmlFor='weekDays'>Quando constuma jogar?</label>
-                <div className='grid grid-cols-2 gap-2'>
+                <div className='grid grid-cols-4 gap-2'>
                   <button title='Domingo' className='w-8 h-8 rounded bg-zinc-900'>D</button>
                   <button title='Segunda' className='w-8 h-8 rounded bg-zinc-900'>S</button>
                   <button title='Terça' className='w-8 h-8 rounded bg-zinc-900'>T</button>
